@@ -17,6 +17,7 @@ public class BoardRepositoryTest {
     @Autowired
     private BoardRepository boardRepo;
 
+    /*
     @Test
     public void testInsertBoard(){
         Board board = new Board();
@@ -28,7 +29,7 @@ public class BoardRepositoryTest {
 
         boardRepo.save(board);
     }
-
+    */
     @Test
     public void testGetBoard(){
         Board board = boardRepo.findById(1L).get();
